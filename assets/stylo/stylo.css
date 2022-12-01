@@ -1,0 +1,246 @@
+body{
+    background-color: rgba(255, 192, 203, 0.644) !important;
+}
+.head{
+    background-image: url(../image/foto-de-fuegos-artificiales.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 10vh;
+    background-color: rgba(202, 0, 67, 0.849);
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.titleSol{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 10vh;
+    background-color: rgba(202, 0, 67, 0.849);
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.iconLup{
+    background-color: rgba(202, 0, 67, 0.61);
+    border-radius: 10px;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sect1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+}
+.buscador{
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    align-items: center;
+}
+.containChek{
+    margin-left: 20px ;
+}
+.botPrice{
+    display: flex;
+    flex-direction: row;
+}
+.price{
+    font-size: 15px;
+}
+
+.sect2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.margin-topcar{
+    margin-top: 10px;
+}
+
+.title-color{
+    color: rgb(202, 0, 67);
+    text-align: center;
+}
+.title-color2{
+    text-align: center;
+}
+.color-pad{
+    background-color: rgb(202, 0, 67) !important;
+    border-color: rgb(202, 0, 67) !important ;
+}
+.border-color{
+    border-color:rgb(202, 0, 67) !important ;
+}
+
+footer{
+    background-color: rgba(202, 0, 67, 0.74);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+.logotipo{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.containLogo{
+    display: flex;
+    flex-direction: row;
+}
+.tam-logo{
+    width: 20vh;
+    margin-left: 20px;
+    margin-right: 80px;
+}
+
+.color-input{
+    background-color: rgb(202, 0, 67) !important ;
+    border: 2px solid aliceblue !important;
+    color: aliceblue !important;
+}
+.back-color{
+    background-color:rgba(202, 0, 67, 0.39) !important ;
+    border-radius: 7px;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+form{
+    width: 450px;
+    margin: auto;
+    background-color:rgba(202, 0, 67, 0.582);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius:20px;
+
+    display: flex;
+    flex-direction: column;
+}
+.form label{
+    margin-top: 15px;
+    background-color: rgba(202, 0, 67, 0.39);
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 18px;
+}
+.title-cont{
+    background-color:rgba(202, 0, 67, 0.534);
+    text-align: center;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.form input, textarea{
+    border: 1px solid rgb(202, 0, 67) ;
+    border-radius: 15px;
+}
+#buton{
+    width: 90px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: aliceblue;
+    background-color:rgba(202, 0, 67, 0.534);
+}
+.contain-but{
+    display: flex;
+    justify-content: end;
+}
+table td, th, tr{
+    border: 2px solid rgb(202, 0, 67);
+}
+table{
+    border: 2px solid rgb(202, 0, 67);
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+}
+.tab-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+th{
+    color: aliceblue;
+    background-color: rgba(202, 0, 67, 0.603) ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.col-td{
+    background-color:  rgba(245, 51, 116, 0.247);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+@media (max-width: 550px){
+.titleSol{
+    font-size: 7vh;
+}
+}
+@media (max-width: 800px){
+    .img-fluid{
+        height: 100% !important;
+        width: 100%;
+    }
+}
+.contain-card{
+    margin-top: 100px;
+    width: 100vh;
+    height: 50vh;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(202, 0, 67, 0.603) ;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.contain-info{
+    padding: 10px;
+    text-align: center;
+}
+
+.card-inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.img-fluid{
+    height: 100% !important;
+}
+.contain-cardi{
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-body{
+    background-color: rgba(202, 0, 67, 0.603) !important ;
+    color: aliceblue !important ;
+}
+.card-text{
+    text-align: center !important;
+}
+.card-title{
+    text-align: center !important;
+}
